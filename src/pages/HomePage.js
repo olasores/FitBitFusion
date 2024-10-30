@@ -139,7 +139,7 @@ export const HomePage = () => {
     <div className='bg-gray-50 p-6 rounded-lg shadow-lg flex flex-col items-center text-center'>
       <h2 className='text-2xl font-bold text-gray-800 mb-4'>Basic</h2>
       <p className='text-lg text-gray-600 mb-6'>Perfect for individuals</p>
-      <p className='text-4xl font-bold text-teal-500 mb-4'>$9/month</p>
+      <p className='text-4xl font-bold text-teal-500 mb-4'>$5/month</p>
       <ul className='text-gray-600 space-y-2 mb-6'>
         <li>Access to basic features</li>
         <li>5 workouts per month</li>
@@ -154,7 +154,7 @@ export const HomePage = () => {
     <div className='bg-gray-50 p-6 rounded-lg shadow-lg flex flex-col items-center text-center'>
       <h2 className='text-2xl font-bold text-gray-800 mb-4'>Essential</h2>
       <p className='text-lg text-gray-600 mb-6'>Ideal for regular users</p>
-      <p className='text-4xl font-bold text-teal-500 mb-4'>$19/month</p>
+      <p className='text-4xl font-bold text-teal-500 mb-4'>$10/month</p>
       <ul className='text-gray-600 space-y-2 mb-6'>
         <li>Access to all features</li>
         <li>Unlimited workouts</li>
@@ -169,7 +169,7 @@ export const HomePage = () => {
     <div className='bg-gray-50 p-6 rounded-lg shadow-lg flex flex-col items-center text-center'>
       <h2 className='text-2xl font-bold text-gray-800 mb-4'>Elite</h2>
       <p className='text-lg text-gray-600 mb-6'>Best for advanced users</p>
-      <p className='text-4xl font-bold text-teal-500 mb-4'>$29/month</p>
+      <p className='text-4xl font-bold text-teal-500 mb-4'>$15/month</p>
       <ul className='text-gray-600 space-y-2 mb-6'>
         <li>All Essential features</li>
         <li>Personalized coaching</li>
