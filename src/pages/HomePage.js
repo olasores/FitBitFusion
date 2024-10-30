@@ -101,6 +101,18 @@ export const HomePage = () => {
       <img src={chuzefit} alt="Partner 2" className="h-16 w-auto object-contain" />
       <img src={planetfit} alt="Partner 3" className="h-16 w-auto object-contain" />
       <img src={twofourfit} alt="Partner 4" className="h-16 w-auto object-contain" />
+
+
+      <img src={goldfit} alt="Partner 1" className="h-16 w-auto object-contain" />
+      <img src={chuzefit} alt="Partner 2" className="h-16 w-auto object-contain" />
+      <img src={planetfit} alt="Partner 3" className="h-16 w-auto object-contain" />
+      <img src={twofourfit} alt="Partner 4" className="h-16 w-auto object-contain" />
+
+      <img src={goldfit} alt="Partner 1" className="h-16 w-auto object-contain" />
+      <img src={chuzefit} alt="Partner 2" className="h-16 w-auto object-contain" />
+      <img src={planetfit} alt="Partner 3" className="h-16 w-auto object-contain" />
+      <img src={twofourfit} alt="Partner 4" className="h-16 w-auto object-contain" />
+
       <img src={goldfit} alt="Partner 1" className="h-16 w-auto object-contain" />
       <img src={chuzefit} alt="Partner 2" className="h-16 w-auto object-contain" />
       <img src={planetfit} alt="Partner 3" className="h-16 w-auto object-contain" />
