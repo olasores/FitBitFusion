@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import weighthero from '../images/weighthero.png';
 import studentimg from '../images/studentimg.png'
+import goldfit from '../images/goldfit.png'
+import planetfit from '../images/planetfit.png'
+import chuzefit from '../images/chuzefit.png'
+import twofourfit from '../images/twofourfit.png'
 
 export const HomePage = () => {
   return (
@@ -33,7 +37,7 @@ export const HomePage = () => {
               placeholder="Search for gyms near you"
               className="px-4 py-2 rounded-l-md focus:outline-none"
             />
-            <button className="px-4 py-2 bg-blue-600 text-white rounded-r-md hover:bg-blue-700">
+            <button className="px-4 py-2 bg-gray-600 text-white rounded-r-md hover:bg-gray-700">
               Search
             </button>
           </div>
@@ -82,7 +86,35 @@ export const HomePage = () => {
     </button>
   </div>
   
+  </div>
+
+  {/* Our Partners Section */}
+<div className="bg-gray-100 py-8">
+  <h2 className="text-3xl font-bold text-center mb-4">Our Partners</h2>
+
+  {/* Scrolling Container */}
+  <div className="  overflow-hidden whitespace-nowrap">
+    <div className="inline-flex animate-scroll gap-8">
+      
+      {/* Example Logos */}
+      <img src={goldfit} alt="Partner 1" className="h-16 w-auto object-contain" />
+      <img src={chuzefit} alt="Partner 2" className="h-16 w-auto object-contain" />
+      <img src={planetfit} alt="Partner 3" className="h-16 w-auto object-contain" />
+      <img src={twofourfit} alt="Partner 4" className="h-16 w-auto object-contain" />
+      <img src={goldfit} alt="Partner 1" className="h-16 w-auto object-contain" />
+      <img src={chuzefit} alt="Partner 2" className="h-16 w-auto object-contain" />
+      <img src={planetfit} alt="Partner 3" className="h-16 w-auto object-contain" />
+      <img src={twofourfit} alt="Partner 4" className="h-16 w-auto object-contain" />
+      {/* <img src="/path-to-logo5.png" alt="Partner 5" className="h-16 w-auto object-contain" /> */}
+      {/* Repeat logos if needed for continuous scrolling */}
+      
+    </div>
+  </div>
 </div>
+
+
+
+  {/* FAQ */}
 
 
 

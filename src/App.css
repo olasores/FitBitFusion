@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+/* scroll effect for logo */
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
