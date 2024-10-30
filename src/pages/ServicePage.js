@@ -1,8 +1,8 @@
 export const ServicePage = () => {
     return (
         <>
-        <h1>
-            hello
+        <h1 className="text-center text-4xl">
+           hello still in progress 
         </h1>
         
         </>
