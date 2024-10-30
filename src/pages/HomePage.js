@@ -129,6 +129,7 @@ export const HomePage = () => {
 
 
  {/* Pricing */}
+ {/* fix pricing access later  */}
 
 <div className='bg-gradient-to-r from-gray-800 to-teal-500 flex flex-col items-center py-12'>
   <h1 className='text-4xl font-bold text-white mb-8'>Pricing</h1>
@@ -184,9 +185,60 @@ export const HomePage = () => {
 </div>
 
 
-  {/* FAQ */}
+  {/* FAQ Section */}
+<div className='bg-gray-100 py-12'>
+  <div className='container mx-auto px-6'>
+    <h1 className='text-4xl font-bold text-center text-gray-800 mb-8'>Frequently Asked Questions</h1>
+    
+    <div className='space-y-4 px-20'>
 
+      {/* Question 1 */}
+      <details className='p-4 border rounded-lg bg-white shadow'>
+        <summary className='text-lg font-semibold text-gray-800 cursor-pointer flex justify-between'>
+          <span>What is the purpose of this platform?</span>
+          <span className='text-teal-500'>+</span>
+        </summary>
+        <p className='mt-2 text-gray-600 text-left'>
+          Our platform provides students with access to exclusive fitness discounts, making premium fitness services and products more affordable.
+        </p>
+      </details>
 
+      {/* Question 2 */}
+      <details className='p-4 border rounded-lg bg-white shadow'>
+        <summary className='text-lg font-semibold text-gray-800 cursor-pointer flex justify-between'>
+          <span>How can I access the discounted fitness services?</span>
+          <span className='text-teal-500'>+</span>
+        </summary>
+        <p className='mt-2 text-gray-600 text-left'>
+          Simply sign up, choose your desired plan, and access a variety of discounted services available only to registered users.
+        </p>
+      </details>
+
+      {/* Question 3 */}
+      <details className='p-4 border rounded-lg bg-white shadow'>
+        <summary className='text-lg font-semibold text-gray-800 cursor-pointer flex justify-between'>
+          <span>What if I want to cancel my subscription?</span>
+          <span className='text-teal-500'>+</span>
+        </summary>
+        <p className='mt-2 text-gray-600 text-left'>
+          You can cancel your subscription anytime from your account settings. Access will remain until the end of your billing cycle.
+        </p>
+      </details>
+
+      {/* Question 4 */}
+      <details className='p-4 border rounded-lg bg-white shadow'>
+        <summary className='text-lg font-semibold text-gray-800 cursor-pointer flex justify-between'>
+          <span>Is this platform only for students?</span>
+          <span className='text-teal-500'>+</span>
+        </summary>
+        <p className='mt-2 text-gray-600 text-left'>
+          Yes, our goal is to provide accessible fitness services and discounts exclusively for students.
+        </p>
+      </details>
+
+    </div>
+  </div>
+</div>
 
     
 
