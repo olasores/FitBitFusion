@@ -6,7 +6,7 @@ import logo from '../images/logo.png'
 
 export const NavBar = () => {
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className=" bg-gradient-to-r from-gray-800 to-teal-500 p-4">
       <div className="container mx-auto flex justify-between iteams-center">
         {/* Logo Section */}
         <div className="text-white flex items-center font-bold text-xl">
@@ -39,6 +39,7 @@ export const NavBar = () => {
               Contact
             </Link>
           </li>
+          {/* add log in and sign up button here */}
         </ul>
       </div>
     </nav>

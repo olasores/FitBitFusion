@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import weighthero from '../images/weighthero.png';
+import studentimg from '../images/studentimg.png'
 
 export const HomePage = () => {
   return (
@@ -38,7 +40,52 @@ export const HomePage = () => {
         </div>
       </div>
 
-    {/* Why us section */}
+      <div className="flex flex-col md:flex-row items-center justify-center p-10 bg-gradient-to-r from-gray-800 to-teal-500 text-white">
+  
+  {/* Left Image Section */}
+  <div className="md:w- p-6 flex justify-center">
+    <img 
+      src={studentimg} 
+      alt="Students working out" 
+      className="rounded-lg shadow-lg object-cover w-full h-72 md:h-96" 
+    />
+  </div>
+
+  {/* Our Mission Text Section */}
+  <div className="md:w-1/2 flex flex-col items-center md:items-start justify-center p-10 text-center md:text-left">
+    <h1 className="text-4xl font-bold pb-4 tracking-wide">
+      Our Mission
+    </h1>
+    <p className="text-lg max-w-md mb-6 leading-relaxed">
+      Our goal is to increase accessibility by offering exclusive discounts to students while helping fitness businesses reach a broader audience.
+    </p>
+    
+    <ul className="text-md space-y-2 max-w-sm">
+      <li className="flex items-center">
+        <span className="text-green-200 mr-2">✓</span>
+        Empowering students to stay fit affordably
+      </li>
+      <li className="flex items-center">
+        <span className="text-green-200 mr-2">✓</span>
+        Building partnerships with local fitness businesses
+      </li>
+      <li className="flex items-center">
+        <span className="text-green-200 mr-2">✓</span>
+        Enhancing student wellness through accessibility
+      </li>
+    </ul>
+
+    <button className="mt-6 px-8 py-2 bg-white text-blue-500 font-semibold rounded-lg shadow-lg hover:bg-gray-100 transition duration-300 ease-in-out">
+     <Link to="/about" className="hover:text-gray-400">
+      Learn More
+      </Link>
+    </button>
+  </div>
+  
+</div>
+
+
+
     
 
 
