@@ -92,7 +92,7 @@ export const HomePage = () => {
 <div className="bg-gray-100 py-8">
   <h2 className="text-3xl font-bold text-center mb-4">Our Partners</h2>
 
-  {/* Scrolling Container */}
+  {/* Logo Scroll Container  */}
   <div className="  overflow-hidden whitespace-nowrap">
     <div className="inline-flex animate-scroll gap-8">
       
@@ -117,8 +117,11 @@ export const HomePage = () => {
       <img src={chuzefit} alt="Partner 2" className="h-16 w-auto object-contain" />
       <img src={planetfit} alt="Partner 3" className="h-16 w-auto object-contain" />
       <img src={twofourfit} alt="Partner 4" className="h-16 w-auto object-contain" />
-      {/* <img src="/path-to-logo5.png" alt="Partner 5" className="h-16 w-auto object-contain" /> */}
-      {/* Repeat logos if needed for continuous scrolling */}
+
+      <img src={goldfit} alt="Partner 1" className="h-16 w-auto object-contain" />
+      <img src={chuzefit} alt="Partner 2" className="h-16 w-auto object-contain" />
+      <img src={planetfit} alt="Partner 3" className="h-16 w-auto object-contain" />
+      <img src={twofourfit} alt="Partner 4" className="h-16 w-auto object-contain" />
       
     </div>
   </div>
