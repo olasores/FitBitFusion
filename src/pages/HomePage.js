@@ -128,6 +128,61 @@ export const HomePage = () => {
 </div>
 
 
+ {/* Pricing */}
+
+<div className='bg-gradient-to-r from-gray-800 to-teal-500 flex flex-col items-center py-12'>
+  <h1 className='text-4xl font-bold text-white mb-8'>Pricing</h1>
+
+  <div className='container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6'>
+    
+    {/* Basic Plan */}
+    <div className='bg-gray-50 p-6 rounded-lg shadow-lg flex flex-col items-center text-center'>
+      <h2 className='text-2xl font-bold text-gray-800 mb-4'>Basic</h2>
+      <p className='text-lg text-gray-600 mb-6'>Perfect for individuals</p>
+      <p className='text-4xl font-bold text-teal-500 mb-4'>$9/month</p>
+      <ul className='text-gray-600 space-y-2 mb-6'>
+        <li>Access to basic features</li>
+        <li>5 workouts per month</li>
+        <li>Email support</li>
+      </ul>
+      <button className='bg-teal-500 text-white py-2 px-4 rounded-lg hover:bg-teal-600'>
+        Select Plan
+      </button>
+    </div>
+
+    {/* Essential Plan */}
+    <div className='bg-gray-50 p-6 rounded-lg shadow-lg flex flex-col items-center text-center'>
+      <h2 className='text-2xl font-bold text-gray-800 mb-4'>Essential</h2>
+      <p className='text-lg text-gray-600 mb-6'>Ideal for regular users</p>
+      <p className='text-4xl font-bold text-teal-500 mb-4'>$19/month</p>
+      <ul className='text-gray-600 space-y-2 mb-6'>
+        <li>Access to all features</li>
+        <li>Unlimited workouts</li>
+        <li>Priority support</li>
+      </ul>
+      <button className='bg-teal-500 text-white py-2 px-4 rounded-lg hover:bg-teal-600'>
+        Select Plan
+      </button>
+    </div>
+
+    {/* Elite Plan */}
+    <div className='bg-gray-50 p-6 rounded-lg shadow-lg flex flex-col items-center text-center'>
+      <h2 className='text-2xl font-bold text-gray-800 mb-4'>Elite</h2>
+      <p className='text-lg text-gray-600 mb-6'>Best for advanced users</p>
+      <p className='text-4xl font-bold text-teal-500 mb-4'>$29/month</p>
+      <ul className='text-gray-600 space-y-2 mb-6'>
+        <li>All Essential features</li>
+        <li>Personalized coaching</li>
+        <li>24/7 support</li>
+      </ul>
+      <button className='bg-teal-500 text-white py-2 px-4 rounded-lg hover:bg-teal-600'>
+        Select Plan
+      </button>
+    </div>
+
+  </div>
+</div>
+
 
   {/* FAQ */}
 
