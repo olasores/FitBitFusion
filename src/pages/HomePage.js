@@ -37,7 +37,7 @@ export const HomePage = () => {
               placeholder="Search for gyms near you"
               className="px-4 py-2 rounded-l-md focus:outline-none"
             />
-            <button className="px-4 py-2 bg-gray-600 text-white rounded-r-md hover:bg-gray-700">
+            <button className="px-4 py-2 bg-teal-600 text-white rounded-r-md hover:bg-gray-700">
               Search
             </button>
           </div>
