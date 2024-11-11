@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+
+# Ignore all cache files in node_modules/.cache
+node_modules/.cache/
+
+# Ignore babel-loader cache specifically
+node_modules/.cache/babel-loader/*
+
+# Ignore eslint cache
+node_modules/.cache/.eslintcache
+
+# react icons
+node_modules/react-icons
