@@ -143,8 +143,8 @@ export const HomePage = () => {
       <p className='text-lg text-gray-600 mb-6'>Perfect for individuals</p>
       <p className='text-4xl font-bold text-teal-500 mb-4'>$5/month</p>
       <ul className='text-gray-600 space-y-2 mb-6'>
-        <li>Access to basic features</li>
-        <li>5 workouts per month</li>
+        <li>Access to one gym</li>
+        <li> Unlimited workouts per month</li>
         <li>Email support</li>
       </ul>
       <button className='bg-teal-500 text-white py-2 px-4 rounded-lg hover:bg-teal-600'>
@@ -158,7 +158,7 @@ export const HomePage = () => {
       <p className='text-lg text-gray-600 mb-6'>Ideal for regular users</p>
       <p className='text-4xl font-bold text-teal-500 mb-4'>$10/month</p>
       <ul className='text-gray-600 space-y-2 mb-6'>
-        <li>Access to all features</li>
+        <li>Access to 5 gyms</li>
         <li>Unlimited workouts</li>
         <li>Priority support</li>
       </ul>
@@ -173,7 +173,7 @@ export const HomePage = () => {
       <p className='text-lg text-gray-600 mb-6'>Best for advanced users</p>
       <p className='text-4xl font-bold text-teal-500 mb-4'>$15/month</p>
       <ul className='text-gray-600 space-y-2 mb-6'>
-        <li>All Essential features</li>
+        <li>Acess to all gyms </li>
         <li>Personalized coaching</li>
         <li>24/7 support</li>
       </ul>
