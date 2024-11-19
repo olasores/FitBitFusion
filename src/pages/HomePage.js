@@ -79,7 +79,7 @@ export const HomePage = () => {
       </li>
     </ul>
 
-    <button className="mt-6 px-8 py-2 bg-white text-blue-500 font-semibold rounded-lg shadow-lg hover:bg-gray-100 transition duration-300 ease-in-out">
+    <button className="mt-6 px-8 py-2 bg-white text-teal-500 font-semibold rounded-lg shadow-lg hover:bg-gray-100 transition duration-300 ease-in-out">
      <Link to="/about" className="hover:text-gray-400">
       Learn More
       </Link>

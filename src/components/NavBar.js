@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from '../images/logo.png'
+// import logo from '../images/logo.png'
+import fit from '../images/fit.png'
 // Uncomment if you have a logo
+
 // import logo from '../path/to/logo.png'; 
 
 export const NavBar = () => {
@@ -12,7 +14,7 @@ export const NavBar = () => {
         <div className="text-white flex items-center font-bold text-xl">
           {/* If you have a logo, use this */}
           <Link to="/">
-            <img src={logo} alt="Logo" className="h-10 " />
+            <img src={fit} alt="Logo" className=" rounded-full h-10 " />
           </Link>
           <Link to="/" className="ml-4">FITBITFUSION</Link>
         </div>
