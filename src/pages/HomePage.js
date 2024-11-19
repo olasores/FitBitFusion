@@ -32,13 +32,13 @@ export const HomePage = () => {
           </p>
 
           {/* Search bar */}
-          <div className="mt-6">
+          <div className="mt-7">
             <input
               type="text"
-              placeholder="Search for gyms near you"
-              className="px-4 py-2 rounded-l-md focus:outline-none"
+              placeholder="Search for gyms nearby"
+              className="px-10 py-2 rounded-l-md focus:outline-none"
             />
-            <button className="px-4 py-2 bg-teal-600 text-white rounded-r-md hover:bg-gray-700">
+            <button className="px-6 py-2 bg-teal-600 text-white rounded-r-md hover:bg-gray-700">
               Search
             </button>
           </div>
