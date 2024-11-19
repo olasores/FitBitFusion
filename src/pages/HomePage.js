@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import weighthero from '../images/weighthero.png';
+// import weighthero from '../images/weighthero.png';
 import studentimg from '../images/studentimg.png'
 import goldfit from '../images/goldfit.png'
 import planetfit from '../images/planetfit.png'
 import chuzefit from '../images/chuzefit.png'
 import twofourfit from '../images/twofourfit.png'
+import weightheronew from '../images/weightheronew.webp'
 
 export const HomePage = () => {
   return (
@@ -14,7 +15,7 @@ export const HomePage = () => {
       <div className="relative w-full h-screen overflow-hidden">
         {/* Background image */}
         <img
-          src={weighthero}
+          src={weightheronew}
           alt="hero-img"
           className="absolute inset-0 object-cover w-full h-full"
         />
